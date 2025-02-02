@@ -337,7 +337,7 @@
     )
   )
 
-  (gr_rect (start 100.5 61.5) (end 189.5 112.5)
+  (gr_rect (start 100.5 61.5) (end 185.5 116.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 204be02d-44bb-46bd-86a7-19ba99abb991))
 
   (via (at 107 64) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 1) (tstamp 162d5c3b-9251-4315-9ce6-e46c562cb120))
