@@ -1,0 +1,858 @@
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'darwin'
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x11f5e44c0>
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with D1 as a reference
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'D1'
+Located on: ['LED Matrix']
+With filenames: ['8x8Matrix.kicad_sch']
+With sheet_id:['LED Matrix']
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('D193', ['LED Matrix3']), ('D129', ['LED Matrix2']), ('D65', ['LED Matrix 1']), ('D1', ['LED Matrix'])]
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'LED Matrix', file:'8x8Matrix.kicad_sch'
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['LED Matrix 1'], ['LED Matrix2'], ['LED Matrix3']]
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['LED Matrix']
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1459, 121)
+02-02 21:29:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1020, 121)
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'LED Matrix', file:'8x8Matrix.kicad_sch'
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['LED Matrix 1'], ['LED Matrix2'], ['LED Matrix3']]
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['LED Matrix 1'], ['LED Matrix2'], ['LED Matrix3']]
+on level: ['LED Matrix']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+02-02 21:29:15 root 332:updating GUI message: 'Preparing for replication'
+02-02 21:29:15 root 337:updating GUI with: 0
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+02-02 21:29:15 root 337:updating GUI with: 0
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+02-02 21:29:15 root 337:updating GUI with: 66
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+02-02 21:29:15 root 332:updating GUI message: 'Replicating footprints'
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+02-02 21:29:15 root 337:updating GUI with: 0
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['LED Matrix 1']
+02-02 21:29:15 root 337:updating GUI with: 14
+02-02 21:29:15 root 337:updating GUI with: 25
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['LED Matrix2']
+02-02 21:29:15 root 337:updating GUI with: 35
+02-02 21:29:15 root 337:updating GUI with: 47
+02-02 21:29:15 root 337:updating GUI with: 58
+02-02 21:29:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['LED Matrix3']
+02-02 21:29:15 root 337:updating GUI with: 68
+02-02 21:29:16 root 337:updating GUI with: 79
+02-02 21:29:16 root 337:updating GUI with: 89
+02-02 21:29:16 root 332:updating GUI message: 'Replicating tracks'
+02-02 21:29:16 root 337:updating GUI with: 0
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['LED Matrix 1']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LED Matrix 1'] :[('/C0', '/C8'), ('/R6', '/R6'), ('/C7', '/C15'), ('/R5', '/R5'), ('/R4', '/R4'), ('/C5', '/C13'), ('/R2', '/R2'), ('/R0', '/R0'), ('/R1', '/R1'), ('/C6', '/C14'), ('/R3', '/R3'), ('/C2', '/C10'), ('/C1', '/C9'), ('/R7', '/R7'), ('/C3', '/C11'), ('/C4', '/C12')]
+02-02 21:29:16 root 337:updating GUI with: 0
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['LED Matrix2']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LED Matrix2'] :[('/R1', '/R9'), ('/C5', '/C5'), ('/C2', '/C2'), ('/C3', '/C3'), ('/R4', '/R12'), ('/R3', '/R11'), ('/R6', '/R14'), ('/C0', '/C0'), ('/C6', '/C6'), ('/R7', '/R15'), ('/R5', '/R13'), ('/R0', '/R8'), ('/C4', '/C4'), ('/C1', '/C1'), ('/C7', '/C7'), ('/R2', '/R10')]
+02-02 21:29:16 root 337:updating GUI with: 33
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['LED Matrix3']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LED Matrix3'] :[('/C0', '/C8'), ('/R1', '/R9'), ('/C7', '/C15'), ('/C5', '/C13'), ('/R4', '/R12'), ('/R3', '/R11'), ('/R6', '/R14'), ('/C6', '/C14'), ('/C1', '/C9'), ('/R7', '/R15'), ('/R5', '/R13'), ('/R0', '/R8'), ('/C2', '/C10'), ('/R2', '/R10'), ('/C3', '/C11'), ('/C4', '/C12')]
+02-02 21:29:16 root 337:updating GUI with: 67
+02-02 21:29:16 root 332:updating GUI message: 'Replicating zones'
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+02-02 21:29:16 root 337:updating GUI with: 0
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['LED Matrix 1']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LED Matrix 1'] :[('/C0', '/C8'), ('/R6', '/R6'), ('/C7', '/C15'), ('/R5', '/R5'), ('/R4', '/R4'), ('/C5', '/C13'), ('/R2', '/R2'), ('/R0', '/R0'), ('/R1', '/R1'), ('/C6', '/C14'), ('/R3', '/R3'), ('/C2', '/C10'), ('/C1', '/C9'), ('/R7', '/R7'), ('/C3', '/C11'), ('/C4', '/C12')]
+02-02 21:29:16 root 337:updating GUI with: 33
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['LED Matrix2']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LED Matrix2'] :[('/R1', '/R9'), ('/C5', '/C5'), ('/C2', '/C2'), ('/C3', '/C3'), ('/R4', '/R12'), ('/R3', '/R11'), ('/R6', '/R14'), ('/C0', '/C0'), ('/C6', '/C6'), ('/R7', '/R15'), ('/R5', '/R13'), ('/R0', '/R8'), ('/C4', '/C4'), ('/C1', '/C1'), ('/C7', '/C7'), ('/R2', '/R10')]
+02-02 21:29:16 root 337:updating GUI with: 66
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['LED Matrix3']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C7'] and dst net: ['', 'C15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C6'] and dst net: ['', 'C14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C5'] and dst net: ['', 'C13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C4'] and dst net: ['', 'C12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C3'] and dst net: ['', 'C11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C2'] and dst net: ['', 'C10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C1'] and dst net: ['', 'C9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R7'] and dst net: ['', 'R15'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R6'] and dst net: ['', 'R14'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R5'] and dst net: ['', 'R13'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R4'] and dst net: ['', 'R12'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R3'] and dst net: ['', 'R11'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R2'] and dst net: ['', 'R10'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R1'] and dst net: ['', 'R9'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'R0'] and dst net: ['', 'R8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'C0'] and dst net: ['', 'C8'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LED Matrix3'] :[('/C0', '/C8'), ('/R1', '/R9'), ('/C7', '/C15'), ('/C5', '/C13'), ('/R4', '/R12'), ('/R3', '/R11'), ('/R6', '/R14'), ('/C6', '/C14'), ('/C1', '/C9'), ('/R7', '/R15'), ('/R5', '/R13'), ('/R0', '/R8'), ('/C2', '/C10'), ('/R2', '/R10'), ('/C3', '/C11'), ('/C4', '/C12')]
+02-02 21:29:16 root 332:updating GUI message: 'Replicating text'
+02-02 21:29:16 root 337:updating GUI with: 0
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['LED Matrix 1']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['LED Matrix2']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['LED Matrix3']
+02-02 21:29:16 root 332:updating GUI message: 'Replicating drawings'
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['LED Matrix 1']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['LED Matrix2']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['LED Matrix3']
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+02-02 21:29:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint D94, pad 2
+Footprint D115, pad 2
+Footprint D204, pad 1
+Footprint D213, pad 2
+Footprint D224, pad 1
+Footprint D75, pad 2
+Footprint D245, pad 2
+Footprint D202, pad 1
+Footprint D147, pad 1
+Footprint D247, pad 2
+Footprint D177, pad 1
+Footprint D238, pad 2
+Footprint D97, pad 2
+Footprint D109, pad 2
+Footprint D218, pad 2
+Footprint D201, pad 1
+Footprint D212, pad 1
+Footprint D233, pad 1
+Footprint D252, pad 2
+Footprint D106, pad 2
+Footprint D227, pad 1
+Footprint D104, pad 2
+Footprint D251, pad 2
+Footprint D159, pad 1
+Footprint D215, pad 1
+Footprint D133, pad 1
+Footprint D176, pad 1
+Footprint D74, pad 2
+Footprint D100, pad 2
+Footprint D216, pad 1
+Footprint D68, pad 2
+Footprint D239, pad 2
+Footprint D192, pad 1
+Footprint D237, pad 2
+Footprint D113, pad 2
+Footprint D105, pad 2
+Footprint D193, pad 2
+Footprint D72, pad 2
+Footprint D184, pad 1
+Footprint D219, pad 2
+Footprint D121, pad 2
+Footprint D152, pad 1
+Footprint D235, pad 2
+Footprint D225, pad 2
+Footprint D246, pad 1
+Footprint D209, pad 2
+Footprint D194, pad 2
+Footprint D251, pad 1
+Footprint D229, pad 1
+Footprint D214, pad 1
+Footprint D205, pad 2
+Footprint D163, pad 1
+Footprint D250, pad 1
+Footprint D211, pad 2
+Footprint D186, pad 1
+Footprint D232, pad 2
+Footprint D126, pad 2
+Footprint D119, pad 2
+Footprint D231, pad 2
+Footprint D142, pad 1
+Footprint D208, pad 2
+Footprint D197, pad 1
+Footprint D223, pad 1
+Footprint D243, pad 1
+Footprint D130, pad 1
+Footprint D249, pad 2
+Footprint D222, pad 2
+Footprint D165, pad 1
+Footprint D228, pad 2
+Footprint D199, pad 1
+Footprint D136, pad 1
+Footprint D254, pad 1
+Footprint D220, pad 2
+Footprint D116, pad 2
+Footprint D180, pad 1
+Footprint D200, pad 2
+Footprint D242, pad 1
+Footprint D226, pad 2
+Footprint D210, pad 1
+Footprint D155, pad 1
+Footprint D125, pad 2
+Footprint D138, pad 1
+Footprint D256, pad 2
+Footprint D207, pad 1
+Footprint D183, pad 1
+Footprint D80, pad 2
+Footprint D198, pad 1
+Footprint D178, pad 1
+Footprint D77, pad 2
+Footprint D162, pad 1
+Footprint D234, pad 2
+Footprint D253, pad 1
+Footprint D217, pad 2
+Footprint D169, pad 1
+Footprint D230, pad 1
+Footprint D189, pad 1
+Footprint D249, pad 1
+Footprint D196, pad 2
+Footprint D110, pad 2
+Footprint D228, pad 1
+Footprint D123, pad 2
+Footprint D213, pad 1
+Footprint D149, pad 1
+Footprint D168, pad 1
+Footprint D245, pad 1
+Footprint D73, pad 2
+Footprint D248, pad 2
+Footprint D247, pad 1
+Footprint D203, pad 2
+Footprint D238, pad 1
+Footprint D90, pad 2
+Footprint D181, pad 1
+Footprint D111, pad 2
+Footprint D218, pad 1
+Footprint D195, pad 2
+Footprint D234, pad 1
+Footprint D179, pad 1
+Footprint D157, pad 1
+Footprint D252, pad 1
+Footprint D236, pad 1
+Footprint D66, pad 2
+Footprint D76, pad 2
+Footprint D122, pad 2
+Footprint D86, pad 2
+Footprint D221, pad 2
+Footprint D101, pad 2
+Footprint D239, pad 1
+Footprint D128, pad 2
+Footprint D237, pad 1
+Footprint D206, pad 2
+Footprint D172, pad 1
+Footprint D193, pad 1
+Footprint D219, pad 1
+Footprint D87, pad 2
+Footprint D185, pad 1
+Footprint D150, pad 1
+Footprint D235, pad 1
+Footprint D225, pad 1
+Footprint D209, pad 1
+Footprint D194, pad 1
+Footprint D67, pad 2
+Footprint D205, pad 1
+Footprint D161, pad 1
+Footprint D65, pad 2
+Footprint D175, pad 1
+Footprint D211, pad 1
+Footprint D232, pad 1
+Footprint D124, pad 2
+Footprint D208, pad 1
+Footprint D231, pad 1
+Footprint D158, pad 1
+Footprint D255, pad 2
+Footprint D98, pad 2
+Footprint D69, pad 2
+Footprint D241, pad 2
+Footprint D190, pad 1
+Footprint D173, pad 1
+Footprint D240, pad 2
+Footprint D236, pad 2
+Footprint D222, pad 1
+Footprint D204, pad 2
+Footprint D112, pad 2
+Footprint D160, pad 1
+Footprint D151, pad 1
+Footprint D224, pad 2
+Footprint D220, pad 1
+Footprint D202, pad 2
+Footprint D200, pad 1
+Footprint D118, pad 2
+Footprint D226, pad 1
+Footprint D78, pad 2
+Footprint D114, pad 2
+Footprint D137, pad 1
+Footprint D256, pad 1
+Footprint D84, pad 2
+Footprint D85, pad 2
+Footprint D166, pad 1
+Footprint D201, pad 2
+Footprint D127, pad 2
+Footprint D233, pad 2
+Footprint D212, pad 2
+Footprint D134, pad 1
+Footprint D217, pad 1
+Footprint D241, pad 1
+Footprint D227, pad 2
+Footprint D99, pad 2
+Footprint D191, pad 1
+Footprint D103, pad 2
+Footprint D154, pad 1
+Footprint D89, pad 2
+Footprint D83, pad 2
+Footprint D156, pad 1
+Footprint D215, pad 2
+Footprint D196, pad 1
+Footprint D139, pad 1
+Footprint D216, pad 2
+Footprint D79, pad 2
+Footprint D167, pad 1
+Footprint D248, pad 1
+Footprint D203, pad 1
+Footprint D107, pad 2
+Footprint D174, pad 1
+Footprint D195, pad 1
+Footprint D135, pad 1
+Footprint D92, pad 2
+Footprint D153, pad 1
+Footprint D246, pad 2
+Footprint D187, pad 1
+Footprint D146, pad 1
+Footprint D229, pad 2
+Footprint D214, pad 2
+Footprint D188, pad 1
+Footprint D81, pad 2
+Footprint D120, pad 2
+Footprint D170, pad 1
+Footprint D250, pad 2
+Footprint D244, pad 2
+Footprint D117, pad 2
+Footprint D91, pad 2
+Footprint D102, pad 2
+Footprint D221, pad 1
+Footprint D140, pad 1
+Footprint D148, pad 1
+Footprint D129, pad 1
+Footprint D197, pad 2
+Footprint D82, pad 2
+Footprint D164, pad 1
+Footprint D223, pad 2
+Footprint D243, pad 2
+Footprint D206, pad 1
+Footprint D199, pad 2
+Footprint D71, pad 2
+Footprint D254, pad 2
+Footprint D242, pad 2
+Footprint D143, pad 1
+Footprint D171, pad 1
+Footprint D141, pad 1
+Footprint D210, pad 2
+Footprint D70, pad 2
+Footprint D144, pad 1
+Footprint D207, pad 2
+Footprint D95, pad 2
+Footprint D131, pad 1
+Footprint D88, pad 2
+Footprint D132, pad 1
+Footprint D198, pad 2
+Footprint D244, pad 1
+Footprint D182, pad 1
+Footprint D253, pad 2
+Footprint D255, pad 1
+Footprint D230, pad 2
+Footprint D145, pad 1
+Footprint D108, pad 2
+Footprint D96, pad 2
+Footprint D93, pad 2
+Footprint D240, pad 1
+
